@@ -1,0 +1,302 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Navbar CSS */
+.logo-img {
+  width: 160px;
+  padding: 6px 0 0 70px;
+}
+.plate-img {
+  position: absolute;
+  width: 43%;
+  right: 6%;
+  top: 14%;
+}
+.lettuce-img {
+  position: absolute;
+  width: 35%;
+  right: 8%;
+  bottom: -1%;
+}
+.user-img {
+  width: 35px;
+}
+
+.menu-item {
+  display: inline-flex;
+  list-style: none;
+  vertical-align: top;
+}
+.menu-item li {
+  padding: 20px 37px;
+  color: #5b558e;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.menu-item li:hover {
+  background-color: #3d7475;
+  color: white;
+}
+.user-profile {
+  color: white;
+  font-size: 10px;
+  padding: 0 10px;
+}
+.food-text {
+  color: #f7f6f9;
+  font-size: 140px;
+  margin: 0;
+  font-weight: bold;
+  padding: 15px 0 0 80px;
+  line-height: 1;
+}
+.unique-food {
+  color: #2e266f;
+  font-size: 54px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0 80px;
+  line-height: 1;
+}
+.input-group button {
+  right: 21.5%;
+  background-color: #3d7475;
+  border-radius: 45px 0 0 0 !important;
+  height: 54px;
+  width: 21%;
+  margin-top: 5.5%;
+  font-size: 23px;
+  font-weight: 400;
+}
+.input-group input {
+  height: 65px;
+  border-radius: 0;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  margin-top: 30px;
+}
+.indore {
+  width: 145px;
+  padding: 18px 0 18px 19px;
+  background-color: #3d7475;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 0 45px 45px 0;
+}
+/* Our services */
+
+.service-line {
+  height: 120px;
+  width: 15px;
+  background-color: #3d7475;
+  float: right;
+  margin-top: 5px;
+}
+.service-text {
+  line-height: 1;
+  font-size: 58px;
+  font-weight: bold;
+  padding-top: "";
+}
+.service-para {
+  font-size: 20px;
+  line-height: 1.1;
+  font-weight: 400;
+  padding-top: 20px;
+}
+/* Dining Out Css */
+
+.dining-line {
+  height: 65px;
+  width: 15px;
+  background-color: #3d7475;
+
+  float: right;
+  margin-top: 5px;
+}
+.dining-text {
+  line-height: 1;
+  font-size: 28px;
+  font-weight: bold;
+  padding-top: 15px;
+}
+.dining-para {
+  font-size: 20px;
+  line-height: 1.1;
+  font-weight: 400;
+}
+/* Booking Css */
+
+.fire-water {
+  width: 100%;
+  height: 100%;
+}
+.wondon-img {
+  width: 100%;
+  height: 100%;
+}
+.fire-overlay {
+  background: rgb(0 82 84 / 50%);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40%;
+  border-radius: 10px;
+  padding: 10px 35px;
+  color: white;
+  font-weight: bold;
+}
+.book-now {
+  height: 40px;
+  width: 140px;
+  background-color: #ffffff;
+  color: black;
+  float: right;
+  font-size: 15px;
+  border: 2px solid #ffffff;
+  color: #3d7475;
+  font-weight: bold;
+}
+/* Footer */
+
+.footer ul {
+  display: inline-flex;
+  list-style: none;
+  vertical-align: top;
+  color: rgb(46 38 111);
+  font-size: 10px;
+}
+.footer ul li {
+  padding: 150px 20px 0 0;
+  font-size: 10px;
+}
+.footer-notify {
+  font-size: 24px;
+  color: rgb(46 38 111);
+  font-weight: 400;
+}
+.footer-content {
+  font-size: 10px;
+  color: rgb(46 38 111);
+}
+.search-input {
+  border-radius: 20px;
+  box-shadow: rgb(211, 211, 211) 0px 0px 33pt 0.5pt;
+  border: none;
+  margin-top: 40px;
+  /* paddingTop: "20px", */
+  height: 40px;
+  font-size: 10px;
+  color: rgb(46 38 111);
+  padding-left: 12px;
+  width: 200px;
+}
+.search-icon {
+  position: absolute;
+  right: 21%;
+  top: 80.5%;
+  width: 60px;
+}
+
+.footer-text {
+  text-align: center;
+  position: relative;
+  top: 20%;
+}
+/* Explore foods css */
+.card-head {
+  font-size: 12px;
+  color: #3d7475;
+  font-weight: bold;
+}
+.card-rs {
+  font-size: 14px;
+  font-weight: bold;
+  float: right;
+  color: #3d7475;
+  padding-top: 10px;
+}
+.card-para {
+  font-size: 10px !important;
+
+  color: rgb(196 197 197) !important;
+  margin: 10px 10px 10px 0 !important;
+}
+
+/* dels css */
+.deal-comp {
+  height: 700px;
+  background-color: rgb(250 250 250);
+  margin: 150px 100px 50px 100px;
+}
+.deal-line {
+  height: 90px;
+  width: 18px;
+  background-color: #3d7475;
+  display: inline-block;
+  float: right;
+  margin-top: 5px;
+}
+.download {
+  line-height: 1;
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(46 38 111);
+  padding: 18px 0 0 20px;
+}
+.download-content {
+  font-size: 20px;
+  line-height: 1.1;
+  font-weight: 400;
+  padding-top: 20px;
+  color: rgb(142 137 137);
+}
+.app-screen {
+  width: 60%;
+  position: absolute;
+  right: 20%;
+  z-index: 10000;
+}
+.app-store {
+  position: absolute;
+  right: 43%;
+  top: 17%;
+  width: 40%;
+}
